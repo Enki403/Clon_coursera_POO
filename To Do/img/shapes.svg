@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="491px" height="769px" viewBox="0 0 491 769" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="onboarding-v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="goals" fill="#051D3B">
+            <g id="background" transform="translate(-348.000000, -46.000000)">
+                <g id="shapes">
+                    <polygon id="Rectangle-36" points="307 570 407 670 307 670"></polygon>
+                    <polygon id="Rectangle-36-Copy-2" transform="translate(493.500000, 368.500000) rotate(-270.000000) translate(-493.500000, -368.500000) " points="441 316 546 421 441 421"></polygon>
+                    <path d="M506.019827,146 L506.019827,203.371294 L448.003868,203.371294 C448.003868,203.478953 448,203.585967 448,203.693626 C448,235.55876 473.831716,261.39112 505.697494,261.39112 C537.563272,261.39112 563.394988,235.55876 563.394988,203.693626 C563.394988,171.935507 537.736687,146.174059 506.019827,146" id="Fill-1"></path>
+                    <polygon id="Rectangle-36-Copy" transform="translate(431.355339, 501.355339) rotate(-45.000000) translate(-431.355339, -501.355339) " points="325.745166 395.745166 536.965512 606.965512 325.745166 606.965512"></polygon>
+                    <polygon id="Page-1" transform="translate(494.562473, 658.966366) rotate(-90.000000) translate(-494.562473, -658.966366) " points="494.562473 629.403893 459.596107 688.52884 529.52884 688.52884"></polygon>
+                    <polygon id="Page-1-Copy-3" points="496.669631 389 449 469.605012 544.339261 469.605012"></polygon>
+                    <polygon id="Page-1-Copy-4" points="371 317 333 381.254545 409 381.254545"></polygon>
+                    <polygon id="Page-1-Copy-8" transform="translate(732.000000, 246.054545) rotate(-360.000000) translate(-732.000000, -246.054545) " points="732 219 700 273.109091 764 273.109091"></polygon>
+                    <polygon id="Page-1-Copy-10" transform="translate(697.000000, 325.054545) rotate(-180.000000) translate(-697.000000, -325.054545) " points="697 298 665 352.109091 729 352.109091"></polygon>
+                    <polygon id="Page-1-Copy-11" transform="translate(661.827957, 156.000000) rotate(-180.000000) translate(-661.827957, -156.000000) " points="661.827957 25.9454545 508 286.054545 815.655914 286.054545"></polygon>
+                    <polygon id="Page-1-Copy-9" transform="translate(596.000000, 246.054545) rotate(-360.000000) translate(-596.000000, -246.054545) " points="596 219 564 273.109091 628 273.109091"></polygon>
+                    <path d="M463.25,777.75 C498.872778,777.75 527.75,748.872778 527.75,713.25 L398.75,713.25 C398.75,748.872778 427.628038,777.75 463.25,777.75" id="Page-1" transform="translate(463.250000, 745.500000) rotate(-90.000000) translate(-463.250000, -745.500000) "></path>
+                    <rect id="Rectangle-33" x="279" y="36" width="82" height="82"></rect>
+                    <rect id="Rectangle-32" x="381" y="124" width="82" height="43"></rect>
+                    <circle id="Oval-8" cx="812.5" cy="129.5" r="26.5"></circle>
+                    <rect id="Rectangle-29" x="563" y="299" width="85" height="168"></rect>
+                    <circle id="Oval-9" cx="563" cy="600" r="27"></circle>
+                    <rect id="Rectangle-30" x="314" y="697" width="89" height="118"></rect>
+                    <circle id="Oval-8-Copy" cx="767.5" cy="189.5" r="26.5"></circle>
+                    <polygon id="Rectangle-34" points="207 411 347 411 411 482 271 482"></polygon>
+                    <path d="M422,180 L314,180 C314,239.647443 362.352557,288 422,288 L422,180 Z" id="Page-1" transform="translate(368.000000, 234.000000) rotate(-270.000000) translate(-368.000000, -234.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

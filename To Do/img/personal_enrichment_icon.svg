@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="144px" viewBox="0 0 200 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>personal_enrichment_shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="onboarding-v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="goals-copy" transform="translate(-960.000000, -345.000000)">
+            <g id="personal-enrich" transform="translate(960.000000, 345.000000)">
+                <g id="personal_enrichment_shape">
+                    <rect id="Rectangle-9" fill="#48CFAD" x="0" y="0" width="200" height="144"></rect>
+                    <path d="M138,73 L161,73" id="Line-2" stroke="#0B765B" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M177.611051,73.3028863 L158.333016,65.9588729 L162.714179,73.3028863 L158.333016,80.6468998 L177.611051,73.3028863 Z" id="Path" stroke="#0B765B" stroke-width="2"></path>
+                    <path d="M94,73 L120,73" id="Line-2" stroke="#0B765B" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M21,73 L41,73" id="Line-2" stroke="#0B765B" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M57,73 L87,73" id="Line-2" stroke="#0B765B" stroke-width="2" stroke-linecap="square"></path>
+                    <rect id="Rectangle-2" fill="#FFFFFF" opacity="0.5" x="32" y="56" width="32" height="32"></rect>
+                    <polygon id="Rectangle-2-Copy" fill="#FFFFFF" opacity="0.5" points="91.2279785 56 110.4 88 72 88"></polygon>
+                    <path d="M91.0133364,68.8867966 L82.8056414,82 L99.1971456,82 L91.0133364,68.8867966 Z" id="Rectangle-2-Copy" stroke="#0B765B" stroke-width="2"></path>
+                    <rect id="Rectangle-4" stroke="#0B765B" stroke-width="2" x="41" y="65" width="14" height="14"></rect>
+                    <circle id="Oval-3" fill="#FFFFFF" opacity="0.5" cx="129" cy="72" r="16"></circle>
+                    <circle id="Oval" stroke="#0B765B" stroke-width="2" cx="129" cy="72" r="8"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

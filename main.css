@@ -1,0 +1,2164 @@
+@font-face {
+	font-family: coursera;
+	src: url(fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+	font-family: coursera-bold;
+	src: url(fonts/OpenSans-Bold.ttf);
+}
+
+
+/*===================================== mainAlexander ===============================*/
+
+
+/*-----------------------------------------------Estilo Header------------------------------------------------------*/
+
+#div-izquierdo * {
+	display: inline-block;
+}
+
+.div-hijo {
+	width: 100%;
+}
+
+#span-inicia-sesion {
+	color: #2a73cc;
+}
+
+#span-inicia-sesion:hover {
+	color: #014c8c;
+}
+
+#btn-unete {
+	background-color: #005bbe;
+	border-radius: 20px;
+	color: white;
+}
+
+.dropdown-nav {
+	background-color: #4285f4;
+	color: white!important;
+	border-radius: 3px;
+	font-weight: 700;
+	margin-right: .25em;
+}
+
+#form-buscar {
+	width: 160%;
+}
+
+#form-buscar input {
+	width: 57%;
+}
+
+#form-buscar button {
+	border: none;
+	background-color: #005bbe;
+	color: white;
+}
+
+
+/*--------------------------------------------------Product---------------------------------------------------------*/
+
+#estilo-primera-imagen {
+	/*Aqui tenemos establecemos todos los estilos para la primera imagen*/
+	background-image: url(img/Product/Product-Hero.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 320px;
+	padding: 4em;
+	font-size: 1.5em;
+}
+
+
+/*Utilizamos media query para ocultar las imagenes*/
+
+@media only screen and (max-width:991px) {
+	#estilo-primera-imagen {
+		background-image: none;
+		width: 0;
+		height: 0px;
+	}
+}
+
+
+/*Definimos estilos de letras para que se pueda leer bien*/
+
+#estilo-letra {
+	width: 69%;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/*Aqui estamos metiendole estilos al segundo div ya esta codificado toda la logica responsivas*/
+
+#estilo-segunda-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/product.png);
+	padding: 4em;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-segunda-imagen {
+		background-image: none;
+		width: 0%;
+		height: 0%;
+	}
+}
+
+#estilo-letra2 {
+	left: 66%;
+	height: 200px;
+}
+
+#estilo-letra2 * {
+	margin-bottom: 5%;
+}
+
+
+/*Tercer div ya codificado para que en 991px se escondan todos los elementos que no queremos*/
+
+#estilo-tercer-div {
+	width: 100%;
+	height: 375.8px;
+	padding: 3% 8%;
+}
+
+.col-md-12 h2 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+@media only screen and (max-width:991px) {
+	.estilo-tercer-div {
+		width: 0px;
+		height: 0px;
+		padding: 0px;
+	}
+}
+
+
+/*Aqui esta la tercera imagen de fondo*/
+
+#estilo-tercer-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/Product-Benifit-LearnerManagement-1.png);
+	padding: 5%;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-tercer-imagen {
+		width: 0px;
+		height: 0px;
+		background-image: none;
+	}
+}
+
+
+/*--------------------------------------Aqui va la cuarta imagen-------------------------------------------*/
+
+#estilo-cuarta-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/Product-Benifit-LearnerBehaviorROI.png);
+	padding: 5% 0%;
+}
+
+#estilo-letra3 {
+	left: 50%;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-cuarta-imagen {
+		width: 0px;
+		height: 0px;
+	}
+}
+
+
+/*Aqui es donde tenemos el div con cuatro subsectores*/
+
+.div-contenedores {
+	margin: 0px auto 250px auto!important;
+}
+
+.div-contenedores h2 {
+	text-align: center;
+	margin: 50px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.div-contenedores h3 {
+	font-size: 1.125em;
+	font-weight: 500;
+	margin-bottom: 2em;
+}
+
+
+/*Tabla de cheques con botones en el fondo*/
+
+.contenedor-principal-tabla {
+	background-color: #0C2341;
+	color: white;
+}
+
+@media only screen and (max-width:991px) {
+	.contenedor-principal-tabla {
+		background-color: white;
+		width: 0px;
+	}
+}
+
+.contenedor-titulo {
+	background-color: #385C8C;
+	height: 2.5em;
+	padding: 10px 0px 0px 10px;
+	box-sizing: border-box;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.div-tabla div {
+	margin-bottom: .6em;
+}
+
+
+/*Estilos de los botones que estan por debajo de la lista*/
+
+.btn-final {
+	height: 80px;
+	padding: 1.2em 0px;
+	text-align: center;
+	background-color: #63a4e0;
+	border-radius: 3px;
+}
+
+.btn-final:hover {
+	background-color: #46C4FF;
+}
+
+.btn-final a {
+	color: white;
+	font-weight: 700;
+}
+
+.btn-final span {
+	display: block;
+	font-weight: 500;
+}
+
+
+/*Este parte tendria que ir en custom*/
+
+.btn-final-custom {
+	max-width: 30%!important;
+	margin: 3em auto!important;
+}
+
+
+/*Este es el ultimo agregado donde se definen los estilos de los contenedores de texto*/
+
+.div-contenedor {
+	width: 70%;
+	height: 350px;
+	position: relative;
+	bottom: 10em;
+	left: 10em;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.div-contenedor * {
+	padding: 0%;
+	margin: 0%;
+}
+
+.div-dialogo {
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	box-sizing: border-box;
+	box-shadow: 0 0 22px -7px rgba(0, 0, 0, .50);
+	border-radius: 15px;
+	background-color: white;
+	color: black;
+}
+
+.div-dialogo h4 {
+	height: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	padding: 6px 0px;
+	font-weight: 100;
+}
+
+.div-texto {
+	padding: 0px 5%;
+}
+
+.div-texto h5 {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 8px;
+	font-weight: 100;
+}
+
+.div-texto h6 {
+	font-size: 1em;
+}
+
+.div-texto h5 {
+	margin-bottom: 15px;
+}
+
+.div-texto p {
+	margin-bottom: 15px;
+}
+
+.div-texto a {
+	width: 45%;
+	height: 55px;
+	display: block;
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding: 20px 0px;
+	background-color: #63a4e0;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+#fondo-team {
+	background-color: #6798D0;
+	height: 50px;
+	padding-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-size: 1.5em;
+}
+
+#fondo-enterprise {
+	background-color: #39587F;
+	height: 50px;
+	padding-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-size: 1.5em;
+}
+
+.div-texto a:hover {
+	background-color: #46c4ff;
+}
+
+
+/*Ultima imagen que esta super puesta*/
+
+#div-ultima-imagen {
+	width: 100%;
+	height: 260px;
+	margin-bottom: 120px;
+	background-color: #0c2341;
+	background-image: url(img/Product/home-profile-background.png);
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:991px) {
+	#div-ultima-imagen {
+		width: 0px;
+		height: 0px;
+		background-color: none;
+		background-image: none;
+	}
+}
+
+#div-texto {
+	margin-top: 5%;
+	color: white;
+}
+
+#div-texto p {
+	font-size: 1.3em;
+}
+
+#div-texto span {
+	font-size: 1.1em;
+}
+
+
+/*Estilos de los div que ocultan la pantalla*/
+
+#div-contenedor-medium {
+	text-align: center;
+}
+
+#div-contenedor-medium * {
+	display: block;
+	margin-bottom: 10%;
+}
+
+#div-contenedor-medium img {
+	margin: 0px auto;
+}
+
+.btn-estilo-estandar {
+	background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%);
+	border-radius: 3px;
+	color: white;
+}
+
+#btn-learn-more {
+	width: 30%;
+	height: 3em;
+	display: block;
+	padding-top: 2%;
+	margin: 0px auto;
+	font-weight: 500;
+}
+
+#img-logo {
+	width: 60%;
+	margin-bottom: 10%!important;
+}
+
+
+/*------------------------------------------------Landing page-------------------------------------------------------*/
+
+#contenedor-principal-md {
+	width: 100%;
+	height: 490px;
+	background-image: url(img/landingPage/banner1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width:767px) {
+	#contenedor-principal-md {
+		width: 0px;
+		height: 0px;
+		background-color: none;
+	}
+}
+
+#div-texto-primero {
+	padding-top: 10%;
+}
+
+#div-texto-primero h1 {
+	color: transparent !important;
+	-webkit-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-moz-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-ms-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-o-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	color: #4a89dc;
+	font-family: OpenSans;
+	font-weight: 700;
+	-webkit-background-clip: text;
+	-ms-background-clip: text;
+	background-clip: text;
+	font-size: 42px;
+	line-height: 54px;
+}
+
+#div-texto-primero p {
+	font-weight: 400;
+	font-size: 1.4em;
+	margin-bottom: 3%;
+	font-family: OpenSans, Arial, sans-serif
+}
+
+#div-texto-primero a {
+	font-size: 1em;
+	padding: 2% 5%;
+}
+
+#div-texto-primero a:hover {
+	color: white;
+}
+
+#div-contenedor-menor img {
+	width: 100%;
+}
+
+.div-texto-pequenio {
+	background-color: #4B90DE;
+	height: auto;
+	text-align: center;
+	color: white;
+	padding: 5% 0px;
+}
+
+.div-texto-pequenio a {
+	background-image: linear-gradient(#2a73cc, #2260aa);
+	color: white;
+	font-size: 1.3em;
+	padding: 1% 5%;
+	font-weight: 600;
+}
+
+
+/*Aqui se tiene que poner el banner con texto adentro*/
+
+#contenedor-banner2 {
+	margin: 2em 0px;
+	background-image: url(img/landingPage/AI_launch_assets_hp_promo_banner.png);
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	padding: 5%;
+}
+
+#contenedor-banner2 * {
+	display: block;
+	padding: .5% 0px;
+	color: white;
+}
+
+#contenedor-banner2 a {
+	width: 15%;
+	margin: auto;
+	background-color: #2073d4;
+}
+
+#contenedor-banner2 a:hover {
+	background-color: #005BBE;
+}
+
+#img-logos {
+	width: 85%;
+}
+
+.contenedor-publicidad {
+	margin: 0px auto;
+	text-align: center;
+}
+
+#btn-informacion {
+	background-color: white;
+	color: blue;
+	border: 1px blue solid;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 1%;
+}
+
+#btn-informacion:hover {
+	background-color: #0156B8;
+	color: white;
+}
+
+#contenedor-padre {
+	/*Este heigth tiene que ir en automatico*/
+	height: auto;
+	margin-top: 1em;
+}
+
+#contenedor-textos-dinamica {
+	height: 100%;
+}
+
+#contenedor-textos-dinamica div {
+	width: 100%;
+	height: 33.333333%;
+	padding-right: 5%;
+	color: #8080804d;
+	margin: 10% 0px 10% 10%;
+}
+
+#contenedor-textos-dinamica div:hover {
+	color: grey;
+	cursor: pointer;
+}
+
+#contenedor-padre span {
+	text-align: center;
+}
+
+
+/*---------------------------------------------------Resources------------------------------------------------------*/
+
+#contenedor-source-principal {
+	background-image: url(img/Resources/newslider.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	padding: 5%;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+#contenedor-source-principal h1 {
+	font-size: 2.75em;
+	font-weight: 300;
+	margin-bottom: 1%;
+}
+
+#contenedor-source-principal p {
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+@media only screen and (max-width:991px) {
+	#contenedor-source-principal {
+		height: 250px;
+		background-color: #1640d4;
+		background-image: none;
+		text-align: center;
+		color: white;
+	}
+}
+
+#contenedeor-articulos {
+	height: auto;
+	margin: 0% 2%;
+}
+
+.div-articulos {
+	height: 250px;
+	max-width: 30%;
+	margin: 1% 1%;
+	cursor: pointer;
+}
+
+.div-imagen-articulo {
+	height: 80%;
+	background-size: cover;
+	border: 1px solid grey;
+}
+
+.div-descripcion-articulo {
+	height: 20%;
+	padding: 3% 0% 3% 3%;
+	border: 1px solid grey;
+}
+
+.div-descripcion-articulo {
+	color: #5c8ed7;
+	font-weight: 700;
+}
+
+.div-descripcion-articulo :hover {
+	color: #60A3E1;
+}
+
+
+/*-----------------------------------------------For enterprise-----------------------------------------------------*/
+
+#logo-ForEnterprise {
+	width: 40%;
+	float: left;
+}
+
+.padre-flex {
+	flex-direction: row;
+}
+
+.header-letras {
+	padding: 0 20px;
+	color: #0C2341;
+}
+
+#estilo-Parrafo1 {
+	width: 61%;
+}
+
+#div-content-developer {
+	margin: .8em 0 .8em 0;
+	text-align: center;
+	font-size: 2.25em;
+	font-weight: 300!important;
+}
+
+#separacion-div {
+	padding-right: 2em;
+	padding-left: 4em;
+}
+
+#div-curated-course {
+	text-align: center;
+	margin: 36px 0px;
+}
+
+#estilo-curated {
+	font-size: 2.25em;
+}
+
+#estilo-the {
+	font-size: 1.4em;
+}
+
+.caja-estilo-principal {
+	width: 45%;
+	height: 275px;
+	background: -moz-linear-gradient(3deg, #57acf5 0%, #7b32de 100%);
+	background: -webkit-linear-gradient(3deg, #57acf5 0%, #7b32de 100%);
+	background: -o-linear-gradient(3deg, #57acf5 0%, #7b32de 100%);
+	background: -ms-linear-gradient(3deg, #57acf5 0%, #7b32de 100%);
+	background: linear-gradient(87deg, #57acf5 0%, #7b32de 100%);
+	float: left;
+	margin: 1% 2.5%;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.estilo-caja-texto {
+	width: 50%;
+	height: 250px;
+	color: white;
+	float: left;
+	box-sizing: border-box;
+	padding: 2%;
+}
+
+.estilo-caja-texto h3 {
+	font-size: 1.5em;
+}
+
+.estilo-caja-texto p {
+	font-size: .85em;
+}
+
+.estilo-caja-imagenes {
+	width: 50%;
+	height: 100%;
+	background-color: orange;
+	float: left;
+}
+
+.imagen-superpuesta {
+	position: absolute;
+	height: 250px;
+}
+
+.imagenes-empresas {
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor-texto-imagenes {
+	width: 100%;
+	height: 40px;
+}
+
+.contenedor-texto-imagenes img {
+	width: 15%;
+	height: 100%;
+	margin: 2%;
+}
+
+#modificaciones {
+	margin-top: 4.5em;
+}
+
+#estilo-companies {
+	text-align: center;
+	margin: 1em 0 1.2em 0;
+	text-align: center;
+	font-size: 2.95em;
+	font-weight: 300;
+	line-height: 1.2;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+#imagenes-publicidad {
+	width: 100%;
+	height: 130px;
+	padding: 1% 10%;
+}
+
+#imagenes-publicidad img {
+	width: 13.28%;
+}
+
+#imagen-video {
+	width: 44%;
+	margin: 0px auto 5% auto;
+}
+
+#ultimo-div {
+	padding: 8% 28%;
+	height: 350px;
+	background: -moz-linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	background: -webkit-linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	background: -o-linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	background: -ms-linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	background: linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	text-align: center;
+	color: white;
+}
+
+#ultimo-div button {
+	display: block;
+}
+
+#modificacion-boton {
+	margin: 5% auto;
+}
+
+#ultimo-div h4 {
+	font-size: 2.5em;
+}
+
+
+/*Aqui son lineas de custom*/
+
+#navbarTogglerDemo03 {
+	margin-left: 5em;
+}
+
+.btn {
+	color: white;
+	background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%);
+}
+
+.carousel-caption {
+	text-align: justify;
+	width: 45%;
+	margin-left: -10%;
+	color: black;
+	margin-bottom: 5em;
+}
+
+.carousel-caption p,
+h1 {
+	font-family: 'Open Sans', sans-serif !important;
+	color: #0C2341;
+}
+
+.carousel-caption div {
+	margin-top: 1em;
+}
+
+
+/*Aqui terminan las lineas de custom*/
+
+
+/*-----------------------------NavBar-Principal Resources----------------------------------*/
+
+#logo-for-enterprise {
+	width: 100%!important;
+}
+
+.navbar-edit {
+	flex-basis: none;
+	width: 250%;
+}
+
+@media only screen and (max-width:991px) {
+	#logo-for-enterprise {
+		width: 45%!important;
+	}
+}
+
+.navbar-edit li {
+	border-right: 1px black solid;
+	height: 15px;
+}
+
+.navbar-edit a {
+	margin-top: -13px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.a-noBorder {
+	border: none!important;
+}
+
+.a-Learn {
+	background: -moz-linear-gradient(left, #4fc1e9 0%, #444bc5 100%);
+	background: -webkit-linear-gradient(left, #4fc1e9 0%, #444bc5 100%);
+	background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%);
+	color: white;
+	padding: .5em .5em;
+	border-radius: 10px;
+}
+
+#div-izquierdo * {
+	display: inline-block;
+}
+
+.div-hijo {
+	width: 100%;
+}
+
+#span-inicia-sesion {
+	color: #2a73cc;
+}
+
+#span-inicia-sesion:hover {
+	color: #014c8c;
+}
+
+#btn-unete {
+	background-color: #005bbe;
+	border-radius: 20px;
+	color: white;
+}
+
+.dropdown-nav {
+	background-color: #4285f4;
+	color: white!important;
+	border-radius: 3px;
+	font-weight: 700;
+	margin-right: .25em;
+}
+
+#form-buscar {
+	width: 160%;
+}
+
+#form-buscar input {
+	width: 57%;
+}
+
+#form-buscar button {
+	border: none;
+	background-color: #005bbe;
+	color: white;
+}
+
+
+/*--------------------------------------------------Product---------------------------------------------------------*/
+
+#estilo-primera-imagen {
+	/*Aqui tenemos establecemos todos los estilos para la primera imagen*/
+	background-image: url(img/Product/Product-Hero.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 320px;
+	padding: 4em;
+	font-size: 1.5em;
+}
+
+
+/*Utilizamos media query para ocultar las imagenes*/
+
+@media only screen and (max-width:991px) {
+	#estilo-primera-imagen {
+		background-image: none;
+		width: 0;
+		height: 0px;
+	}
+}
+
+
+/*Definimos estilos de letras para que se pueda leer bien*/
+
+#estilo-letra {
+	width: 69%;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/*Aqui estamos metiendole estilos al segundo div ya esta codificado toda la logica responsivas*/
+
+#estilo-segunda-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/product.png);
+	padding: 4em;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-segunda-imagen {
+		background-image: none;
+		width: 0%;
+		height: 0%;
+	}
+}
+
+#estilo-letra2 {
+	left: 66%;
+	height: 200px;
+}
+
+#estilo-letra2 * {
+	margin-bottom: 5%;
+}
+
+
+/*Tercer div ya codificado para que en 991px se escondan todos los elementos que no queremos*/
+
+#estilo-tercer-div {
+	width: 100%;
+	height: 375.8px;
+	padding: 3% 8%;
+}
+
+.col-md-12 h2 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+@media only screen and (max-width:991px) {
+	.estilo-tercer-div {
+		width: 0px;
+		height: 0px;
+		padding: 0px;
+	}
+}
+
+
+/*Aqui esta la tercera imagen de fondo*/
+
+#estilo-tercer-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/Product-Benifit-LearnerManagement-1.png);
+	padding: 5%;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-tercer-imagen {
+		width: 0px;
+		height: 0px;
+		background-image: none;
+	}
+}
+
+
+/*--------------------------------------Aqui va la cuarta imagen-------------------------------------------*/
+
+#estilo-cuarta-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/Product-Benifit-LearnerBehaviorROI.png);
+	padding: 5% 0%;
+}
+
+#estilo-letra3 {
+	left: 50%;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-cuarta-imagen {
+		width: 0px;
+		height: 0px;
+	}
+}
+
+
+/*Aqui es donde tenemos el div con cuatro subsectores*/
+
+.div-contenedores {
+	margin: 0px auto 250px auto!important;
+}
+
+.div-contenedores h2 {
+	text-align: center;
+	margin: 50px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.div-contenedores h3 {
+	font-size: 1.125em;
+	font-weight: 500;
+	margin-bottom: 2em;
+}
+
+
+/*Tabla de cheques con botones en el fondo*/
+
+.contenedor-principal-tabla {
+	background-color: #0C2341;
+	color: white;
+}
+
+@media only screen and (max-width:991px) {
+	.contenedor-principal-tabla {
+		background-color: white;
+		width: 0px;
+	}
+}
+
+.contenedor-titulo {
+	background-color: #385C8C;
+	height: 2.5em;
+	padding: 10px 0px 0px 10px;
+	box-sizing: border-box;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.div-tabla div {
+	margin-bottom: .6em;
+}
+
+
+/*Estilos de los botones que estan por debajo de la lista*/
+
+.btn-final {
+	height: 80px;
+	padding: 1.2em 0px;
+	text-align: center;
+	background-color: #63a4e0;
+	border-radius: 3px;
+}
+
+.btn-final:hover {
+	background-color: #46C4FF;
+}
+
+.btn-final a {
+	color: white;
+	font-weight: 700;
+}
+
+.btn-final span {
+	display: block;
+	font-weight: 500;
+}
+
+
+/*Este parte tendria que ir en custom*/
+
+.btn-final-custom {
+	max-width: 30%!important;
+	margin: 3em auto!important;
+}
+
+
+/*Este es el ultimo agregado donde se definen los estilos de los contenedores de texto*/
+
+.div-contenedor {
+	width: 70%;
+	height: 350px;
+	position: relative;
+	bottom: 10em;
+	left: 10em;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.div-contenedor * {
+	padding: 0%;
+	margin: 0%;
+}
+
+.div-dialogo {
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	box-sizing: border-box;
+	box-shadow: 0 0 22px -7px rgba(0, 0, 0, .50);
+	border-radius: 15px;
+	background-color: white;
+	color: black;
+}
+
+.div-dialogo h4 {
+	height: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	padding: 6px 0px;
+	font-weight: 100;
+}
+
+.div-texto {
+	padding: 0px 5%;
+}
+
+.div-texto h5 {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 8px;
+	font-weight: 100;
+}
+
+.div-texto h6 {
+	font-size: 1em;
+}
+
+.div-texto h5 {
+	margin-bottom: 15px;
+}
+
+.div-texto p {
+	margin-bottom: 15px;
+}
+
+.div-texto a {
+	width: 45%;
+	height: 55px;
+	display: block;
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding: 20px 0px;
+	background-color: #63a4e0;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+#fondo-team {
+	background-color: #6798D0;
+	height: 50px;
+	padding-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-size: 1.5em;
+}
+
+#fondo-enterprise {
+	background-color: #39587F;
+	height: 50px;
+	padding-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-size: 1.5em;
+}
+
+.div-texto a:hover {
+	background-color: #46c4ff;
+}
+
+
+/*Ultima imagen que esta super puesta*/
+
+#div-ultima-imagen {
+	width: 100%;
+	height: 260px;
+	margin-bottom: 120px;
+	background-color: #0c2341;
+	background-image: url(img/Product/home-profile-background.png);
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:991px) {
+	#div-ultima-imagen {
+		width: 0px;
+		height: 0px;
+		background-color: none;
+		background-image: none;
+	}
+}
+
+#div-texto {
+	margin-top: 5%;
+	color: white;
+}
+
+#div-texto p {
+	font-size: 1.3em;
+}
+
+#div-texto span {
+	font-size: 1.1em;
+}
+
+
+/*Estilos de los div que ocultan la pantalla*/
+
+#div-contenedor-medium {
+	text-align: center;
+}
+
+#div-contenedor-medium * {
+	display: block;
+	margin-bottom: 10%;
+}
+
+#div-contenedor-medium img {
+	margin: 0px auto;
+}
+
+.btn-estilo-estandar {
+	background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%);
+	border-radius: 3px;
+	color: white;
+}
+
+#btn-learn-more {
+	width: 30%;
+	height: 3em;
+	display: block;
+	padding-top: 2%;
+	margin: 0px auto;
+	font-weight: 500;
+}
+
+#img-logo {
+	width: 60%;
+	margin-bottom: 10%!important;
+}
+
+
+/*------------------------------------------------Landing page-------------------------------------------------------*/
+
+#contenedor-principal-md {
+	width: 100%;
+	height: 490px;
+	background-image: url(img/landingPage/banner1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width:767px) {
+	#contenedor-principal-md {
+		width: 0px;
+		height: 0px;
+		background-color: none;
+	}
+}
+
+#div-texto-primero {
+	padding-top: 10%;
+}
+
+#div-texto-primero h1 {
+	color: transparent !important;
+	-webkit-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-moz-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-ms-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-o-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	color: #4a89dc;
+	font-family: OpenSans;
+	font-weight: 700;
+	-webkit-background-clip: text;
+	-ms-background-clip: text;
+	background-clip: text;
+	font-size: 42px;
+	line-height: 54px;
+}
+
+#div-texto-primero p {
+	font-weight: 400;
+	font-size: 1.4em;
+	margin-bottom: 3%;
+	font-family: OpenSans, Arial, sans-serif
+}
+
+#div-texto-primero a {
+	font-size: 1em;
+	padding: 2% 5%;
+}
+
+#div-texto-primero a:hover {
+	color: white;
+}
+
+#div-contenedor-menor img {
+	width: 100%;
+}
+
+.div-texto-pequenio {
+	background-color: #4B90DE;
+	height: auto;
+	text-align: center;
+	color: white;
+	padding: 5% 0px;
+}
+
+.div-texto-pequenio a {
+	background-image: linear-gradient(#2a73cc, #2260aa);
+	color: white;
+	font-size: 1.3em;
+	padding: 1% 5%;
+	font-weight: 600;
+}
+
+
+/*Aqui se tiene que poner el banner con texto adentro*/
+
+#contenedor-banner2 {
+	margin: 2em 0px;
+	background-image: url(img/landingPage/AI_launch_assets_hp_promo_banner.png);
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	padding: 5%;
+}
+
+#contenedor-banner2 * {
+	display: block;
+	padding: .5% 0px;
+	color: white;
+}
+
+#contenedor-banner2 a {
+	width: 15%;
+	margin: auto;
+	background-color: #2073d4;
+}
+
+#contenedor-banner2 a:hover {
+	background-color: #005BBE;
+}
+
+#img-logos {
+	width: 85%;
+}
+
+.contenedor-publicidad {
+	margin: 0px auto;
+	text-align: center;
+}
+
+#btn-informacion {
+	background-color: white;
+	color: blue;
+	border: 1px blue solid;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 1%;
+}
+
+#btn-informacion:hover {
+	background-color: #0156B8;
+	color: white;
+}
+
+#contenedor-padre {
+	/*Este heigth tiene que ir en automatico*/
+	height: auto;
+	margin-top: 1em;
+}
+
+#contenedor-textos-dinamica {
+	height: 100%;
+}
+
+#contenedor-textos-dinamica div {
+	width: 100%;
+	height: 33.333333%;
+	padding-right: 5%;
+	color: #8080804d;
+	margin: 10% 0px 10% 10%;
+}
+
+#contenedor-textos-dinamica div:hover {
+	color: grey;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*-------------------------------------------------main------------------------------------------------------------*/
+
+#fotoTema {
+	width: 100%;
+	height: 598px;
+	background-image: url(img/landingPage/banner1.jpg);
+	background-repeat: no-repeat;
+	padding: 150px 100px;
+}
+
+#tituloPrincipal {
+	color: transparent!important;
+	-webkit-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc)!important;
+	-moz-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc)!important;
+	-ms-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc)!important;
+	-o-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc)!important;
+	background-image: linear-gradient(90deg, #4fc1e9, #4a89dc)!important;
+	color: #4a89dc;
+	font-family: OpenSans;
+	font-weight: 700;
+	-webkit-background-clip: text;
+	-ms-background-clip: text;
+	background-clip: text;
+	font-size: 42px;
+	line-height: 54px;
+}
+
+#estiloAprendizaje100 {
+	font-size: 22px;
+	font-weight: 400;
+	font-family: OpenSans, Arial, sans-serif;
+}
+
+#buttonGratuito {
+	height: 65px;
+	width: 330.41px;
+	/*Aqui tengo que cambiar la direccion del color de izquierda a derecha*/
+	background: linear-gradient(to right, #4fc1e9 25%, #4a89dc);
+	border: none;
+	color: white;
+	padding: 20px 60px;
+	margin-top: 32px;
+	font-size: 18px;
+	line-height: 12px;
+	font-family: OpenSans-Semibold, Arial, sans-serif;
+}
+
+#logos img {
+	padding: 10px;
+}
+
+.divLogos {
+	margin: 35px 0px 0px 70px;
+}
+
+#publicidadUniversidades {
+	width: 100%;
+	height: 250px;
+	margin: 40px 0px 0px 75px;
+	padding: 50px 300px;
+	color: white;
+	background-image: url(img/landingPage/MCS-Promo.jpg);
+	background-repeat: no-repeat;
+}
+
+#divAnunciantes {
+	width: 100%;
+	height: 270px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#imagenAnunciantes {
+	width: 75%;
+}
+
+#divBoton {
+	margin-right: 250px;
+	margin-top: 20px;
+}
+
+.alinear {
+	text-align: center;
+	margin-right: 150px;
+}
+
+#btn-learnMore {
+	background-color: white;
+	color: blue;
+	border: 1px blue solid;
+	width: 140px;
+	height: 34px;
+}
+
+
+/*-----------------------------------------footer----------------------------------------------------*/
+
+#no-margin {
+	margin: 0;
+}
+
+.footer-margin {
+	margin: 0% 13.5% 0% 13.5%;
+	border: 1;
+	padding: 12px 12px 12px 12px;
+}
+
+@media screen and (max-width: 840px) {
+	.footer-margin {
+		margin: 0% 0% 0% 0%;
+	}
+	.page-footer {
+		margin: 0% 0% 0% 0%;
+	}
+}
+
+#footer-logo {
+	filter: grayscale(100%);
+}
+
+.page-footer {
+	border-top: 1px solid #E1E1E1;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(225, 225, 225);
+}
+
+footer {
+	width: 100%;
+	height: 300px;
+	margin-top: 13px;
+}
+
+footer div {
+	float: left;
+}
+
+.justificado {
+	text-align: justify;
+	width: 30%;
+	height: 400px;
+	margin-left: 100px;
+}
+
+#paddingFooterIzq div {
+	padding: 10px;
+}
+
+#listasFooter a {
+	color: hsla(0, 0%, 47%, .75);
+}
+
+#listasFooter a:hover {
+	color: #155a95;
+}
+
+#listasFooter li {
+	margin: 10px;
+	font-size: 1em;
+}
+
+#listasFooter h3 {
+	font-size: 0.875rem;
+	color: #1F1F1F;
+	text-transform: uppercase;
+}
+
+
+/*----------------------------------------------------- Fin Landing Page--------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------Inicio ForEnterprise-------------------------------------------*/
+
+.div-header {
+	margin-left: auto;
+	margin-right: 0px !important;
+}
+
+.div-header li {
+	margin-left: 1.25em;
+}
+
+.estilo-letras {
+	font-size: 1.15em;
+	color: black!important;
+}
+
+#estilo-navbar {
+	margin-left: .65em;
+}
+
+.estilo-home {
+	font-size: 1.15em;
+	color: #5c8ed7!important;
+}
+
+#estilo-learn {
+	color: black;
+	font-size: 1.15em;
+	background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%);
+	color: white;
+}
+
+.estilo-Caja {
+	margin: 1em 1% 1em 1%;
+	padding: 0px;
+	max-width: 22%;
+	height: 20em;
+	background-color: white;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .20);
+}
+
+#primera-Caja {
+	background-color: #0C2341;
+	padding: .5em;
+	color: white;
+	padding: 1em 0em 0em 1em;
+}
+
+#contenedor-Texto1 {
+	width: 77%
+}
+
+#contenedor-Texto1 p {
+	font-size: 1.5em;
+}
+
+.contenedor-imagenes-universidad {
+	padding: 0px;
+}
+
+.estilo-subTitulos {
+	margin: 2.7em 0px 1.3em 0px;
+	font-size: 1.3em;
+}
+
+.imagenes-universidad {
+	width: 100%
+}
+
+.estilo-caja-superpuesta {
+	width: 90px;
+	height: auto;
+	position: absolute;
+	left: 10%;
+	bottom: 11em;
+}
+
+
+/*=================================== Recomendados ===================================*/
+
+#recomendados {
+	margin: 40px 14% 40px 14%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#row-recomendados {
+	margin-left: -15;
+	margin-right: -15;
+}
+
+.is-main .nav-link {
+	color: #4D4D4D;
+	font-size: 1rem;
+	background-color: #F1F1F1;
+	border: 1px solid #D0D0D0;
+	border-radius: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.is-main .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #000;
+	font-weight: 450;
+	font-size: 1rem;
+	border-radius: 0px;
+	background-color: #FFFFFF;
+	border: 1px solid #D0D0D0;
+}
+
+.is-main .nav-pills .nav-link {
+	color: #4D4D4D;
+	font-size: 1rem;
+	background-color: #F1F1F1;
+	border: 1px solid #D0D0D0;
+	border-radius: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+main a:hover {
+	text-decoration: none;
+}
+
+.img-160 {
+	width: 160px;
+	height: 160px;
+}
+
+#img-brujula {
+	width: 210px;
+	height: 200px;
+}
+
+.text-center {
+	margin-right: 28.6%;
+	margin-left: 28.6%;
+}
+
+.h1-style {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+
+#h2-gray {
+	color: #6B6C69;
+}
+
+.p-style {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: OpenSans, Arial, sans-serif;
+	margin-bottom: 16px;
+}
+
+.color-text {
+	color: #525252;
+}
+
+.btn-primary {
+	margin: 32px auto auto auto;
+	display: block;
+	border: 1px solid #2073d4;
+	background-color: #2073d4;
+	padding: 10px 20px 10px 20px;
+	width: 180px;
+	height: 36px;
+	font-size: 0.7rem;
+	line-height: 18px;
+	font-family: OpenSans, Arial, sans-serif;
+}
+
+button.primary:hover {
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.dropdown-divider {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.card-body {
+	border: solid 1px #d6d6d6;
+	margin-bottom: 15px;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #f6faff;
+}
+
+.card-body:hover {
+	border: solid 1px #9b9b9b;
+}
+
+.rounded-img {
+	/*position: absolute;
+    left: 15px;*/
+	height: 50px;
+	width: 50px;
+	border-radius: 30px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 2px #999;
+	border: 2px solid #fff;
+}
+
+.linked {
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.row1 {
+		display: block;
+	}
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.centrado {
+	margin: 0px 10% 0px 10%;
+}
+
+.carousel-control-next-mod,
+.carousel-control-prev-mod {
+	width: 33px;
+	height: 33px;
+	margin-left: 7%;
+	margin-top: 12%;
+	margin-right: 8%;
+}
+
+.div-habilidades {
+	width: 365px;
+	height: 365px;
+}
+
+.div-ajustar {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.doble-arriba {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	width: 365px;
+	height: 175px;
+	padding-top: 25%;
+}
+
+.doble-abajo {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	width: 365px;
+	height: 175px;
+	padding-top: 25%;
+}
+
+.solo {
+	width: 365px;
+	height: 365px;
+	margin-right: 10px;
+	padding-left: 5%;
+	padding-top: 10%
+}
+
+.text-white {
+	color: white!important;
+	font-weight: 400;
+}
+
+.oscurecer:hover {
+	filter: contrast(0.85);
+	cursor: pointer;
+}
+
+#browse h2 {
+	font-size: 1.6em;
+	margin-left: 5em;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+body {
+	font-family: coursera;
+}
+
+.tu-titulo-icono {
+	/* width: 268px;
+	height: 90px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 1px; */
+	width: 100%;
+    height: 90px;
+}
+
+.tu-titulo-icono img{
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tu-titulo-titulo {
+	color: #000;
+	line-height: 22px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.tu-titulo-descripcion {
+	color: #000;
+	font-size: 12px;
+}
+
+.div-tu-titulo {
+	width: 270px;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+    z-index: -1;
+}
+
+.pruebasss{
+	cursor: pointer;
+}
+.pruebasss:hover{
+	box-shadow: 0 3px 10px rgba(31, 31, 31, 0.16), 0 3px 10px rgba(31, 31, 31, 0.23);
+}
+
+.enlinea-div {
+	position: absolute;
+	top: 85%;
+	left: 2%;
+	/* background-color: #e84b27; */
+}
+
+.enlinea {
+	font-family: coursera-bold;
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 15px;
+}
+
+.footer-forma{
+	/* height: 55px;
+    width: 266%;
+    bottom: -104%;
+    left: -9%;
+	position: absolute; */
+	height: 55px;
+    width: 130%;
+    bottom: -4%;
+    left: -1%;
+    position: absolute;
+}
+
+.left-shape{
+	transform: rotate(4deg);
+	z-index: -1;
+}
+
+.right-shape{
+	transform: rotate(-4deg);
+	z-index: -1;
+}
+
+#temas-habilidades .carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+}
+
+#obten-titulo .carousel-control-next,#obten-titulo .carousel-control-prev {
+    position: absolute;
+	top: -30%;
+}
+
+.centrado .mx-2{
+	margin-left: 0.8rem!important;
+	margin-right: 0.8rem!important;
+}
+
+#browsefondo{
+	background-color: #f5f5f5;
+}
+
+.university-logo{
+	position: absolute;
+    right: 5px;
+    bottom: 3px;
+    height: 36px;
+    max-width: 70px;
+}
+
+.university-logo img{
+	max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    vertical-align: top;
+}
+
+
+#opciones{
+	height:100vh;
+	background-color:#F0F0F0;
+}
+
+#opciones-respuesta{
+	margin-top:0.7em;
+	margin-bottom: 2.7em;
+	padding-bottom: 1.5em;
+}
+
+.nav-pills .nav-link.active{
+    color: gray;
+    background-color: #f0f0f0;
+    border-left: 19px solid #007bff;
+}
+
+.nav-fill{
+	background-color: #f0f0f0;
+}
+
+.nav a{
+    color: #373a3c!important;
+}
+
+.nav-link{
+    text-align: center;
+    font-size: 1.12em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.horizontal-nav{
+	display: none;
+}
+
+.horizontal-nav2{
+	display: none;
+}
+
+.vertical-nav{
+	display:block;
+}
+
+@media (max-width: 1000px) {
+	.horizontal-nav{
+		display: block;
+	}
+	.vertical-nav{
+		display:none;
+	}
+	.contenido-nav{
+		margin-left: 3.5em;
+		margin-right: 3.5em;
+		background-color: #fff;
+	}
+}
+
+@media (max-width: 755px) {
+	.horizontal-nav2{
+		display: block;
+	}
+	.horizontal-nav{
+		display: none;
+	}
+	.vertical-nav{
+		display:none;
+	}
+}
+
+.vertical-nav{
+	padding: 50px;
+}
+
+#perfil{
+	background-color: #f0f0f0;
+}
+
+.horizontal-nav2{
+	padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+
+.horizontal-nav{
+	padding-left: 7.5em;
+    padding-right: 7.5em;
+}
+
+
+.contenido-nav{
+	background-color: #fff;
+	padding-top:2.7em;
+	padding-left:3.7em; 
+}
+
+i h3{
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 1.5em;
+}
+
+.contenido-nav .btn {
+	background: none;
+	color: #007bff;
+}
+
+.bordeError{
+	border-color:red;
+}
+
+.boton-danger{
+  color: #fff!important;
+  background-color: #dc3545!important;
+  border-color: #dc3545;
+}
+
+.opaco{
+	color:#817e7e;
+}
+
+.curso {
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+	padding-left: 5%;
+	padding-top: 10%
+}

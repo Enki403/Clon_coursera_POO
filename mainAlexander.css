@@ -1,0 +1,1661 @@
+/*se eliminara al final*/
+/*Este documento solo se utilizar para no estar resolviendo conflictos al momento de actualizar el repositorio
+posteriormente se borrara*/
+
+/*Si se desea buscar una clase entre todo el archivo solo se tiene que poner el nombre de la pagina es decir 
+si se quiere buscar el landing page se busca con Ctrl+F y la palabra landing page*/
+
+/*-----------------------------------------------Estilo Header------------------------------------------------------*/
+
+*{
+	font-family: 'Open Sans',sans-serif !important;
+}
+
+#div-izquierdo * {
+	display: inline-block;
+}
+
+.div-hijo {
+	width: 100%;
+}
+
+#span-inicia-sesion {
+	color: #2a73cc;
+}
+
+#span-inicia-sesion:hover {
+	color: #014c8c;
+}
+
+#btn-unete{
+	border-radius: 20px;
+	color: white;
+	padding: 2% 8px;
+	border: none;
+	background-color: #2073d4;
+	font-weight: 100;
+}
+
+.dropdown-nav {
+	background-color: #4285f4;
+	color: white!important;
+	border-radius: 3px;
+	font-weight: 700;
+	margin-right: .25em;
+}
+
+#form-buscar {
+	width: 160%;
+}
+
+#form-buscar input {
+	width: 57%;
+}
+
+#form-buscar button {
+	border: none;
+	background-color: #005bbe;
+	color: white;
+}
+.foto-perfil{
+	height: 2.25em;
+	background-color: black;
+	width: 2.2em;
+	margin-top: 10px;
+	border-radius: .98em;
+}
+.foto-perfil img{
+	height: 100%;
+	width: 100%;
+	border-radius: 1em;
+}
+
+/*--------------------------------------------------Product---------------------------------------------------------*/
+
+#estilo-primera-imagen {
+	/*Aqui tenemos establecemos todos los estilos para la primera imagen*/
+	background-image: url(img/Product/Product-Hero.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 320px;
+	padding: 4em;
+	font-size: 1.5em;
+}
+
+
+/*Utilizamos media query para ocultar las imagenes*/
+
+@media only screen and (max-width:991px) {
+	#estilo-primera-imagen {
+		background-image: none;
+		width: 0;
+		height: 0px;
+	}
+}
+
+
+/*Definimos estilos de letras para que se pueda leer bien*/
+
+#estilo-letra {
+	width: 69%;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/*Aqui estamos metiendole estilos al segundo div ya esta codificado toda la logica responsivas*/
+
+#estilo-segunda-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/product.png);
+	padding: 4em;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-segunda-imagen {
+		background-image: none;
+		width: 0%;
+		height: 0%;
+	}
+}
+
+#estilo-letra2 {
+	left: 66%;
+	height: 200px;
+}
+
+#estilo-letra2 * {
+	margin-bottom: 5%;
+}
+
+
+/*Tercer div ya codificado para que en 991px se escondan todos los elementos que no queremos*/
+
+#estilo-tercer-div {
+	width: 100%;
+	height: 375.8px;
+	padding: 3% 8%;
+}
+
+.col-md-12 h2 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+@media only screen and (max-width:991px) {
+	.estilo-tercer-div {
+		width: 0px;
+		height: 0px;
+		padding: 0px;
+	}
+}
+
+
+/*Aqui esta la tercera imagen de fondo*/
+
+#estilo-tercer-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/Product-Benifit-LearnerManagement-1.png);
+	padding: 5%;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-tercer-imagen {
+		width: 0px;
+		height: 0px;
+		background-image: none;
+	}
+}
+
+
+/*--------------------------------------Aqui va la cuarta imagen-------------------------------------------*/
+
+#estilo-cuarta-imagen {
+	width: 100%;
+	height: 397.6px;
+	background-image: url(img/Product/Product-Benifit-LearnerBehaviorROI.png);
+	padding: 5% 0%;
+}
+
+#estilo-letra3 {
+	left: 50%;
+}
+
+@media only screen and (max-width:991px) {
+	#estilo-cuarta-imagen {
+		width: 0px;
+		height: 0px;
+	}
+}
+
+
+/*Aqui es donde tenemos el div con cuatro subsectores*/
+
+.div-contenedores {
+	margin: 0px auto 250px auto!important;
+}
+
+.div-contenedores h2 {
+	text-align: center;
+	margin: 50px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.div-contenedores h3 {
+	font-size: 1.125em;
+	font-weight: 500;
+	margin-bottom: 2em;
+}
+
+
+/*Tabla de cheques con botones en el fondo*/
+
+.contenedor-principal-tabla {
+	background-color: #0C2341;
+	color: white;
+}
+
+@media only screen and (max-width:991px) {
+	.contenedor-principal-tabla {
+		background-color: white;
+		width: 0px;
+	}
+}
+
+.contenedor-titulo {
+	background-color: #385C8C;
+	height: 2.5em;
+	padding: 10px 0px 0px 10px;
+	box-sizing: border-box;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.div-tabla div {
+	margin-bottom: .6em;
+}
+
+
+/*Estilos de los botones que estan por debajo de la lista*/
+
+.btn-final {
+	height: 80px;
+	padding: 1.2em 0px;
+	text-align: center;
+	background-color: #63a4e0;
+	border-radius: 3px;
+}
+
+.btn-final:hover {
+	background-color: #46C4FF;
+}
+
+.btn-final a {
+	color: white;
+	font-weight: 700;
+}
+
+.btn-final span {
+	display: block;
+	font-weight: 500;
+}
+
+
+/*Este parte tendria que ir en custom*/
+
+.btn-final-custom {
+	max-width: 30%!important;
+	margin: 3em auto!important;
+}
+
+
+/*Este es el ultimo agregado donde se definen los estilos de los contenedores de texto*/
+
+.div-contenedor {
+	width: 70%;
+	height: 350px;
+	position: relative;
+	bottom: 10em;
+	left: 10em;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.div-contenedor * {
+	padding: 0%;
+	margin: 0%;
+}
+
+.div-dialogo {
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	box-sizing: border-box;
+	box-shadow: 0 0 22px -7px rgba(0, 0, 0, .50);
+	border-radius: 15px;
+	background-color: white;
+	color: black;
+}
+
+.div-dialogo h4 {
+	height: 10%;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	padding: 6px 0px;
+	font-weight: 100;
+}
+
+.div-texto {
+	padding: 0px 5%;
+}
+
+.div-texto h5 {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 8px;
+	font-weight: 100;
+}
+
+.div-texto h6 {
+	font-size: 1em;
+}
+
+.div-texto h5 {
+	margin-bottom: 15px;
+}
+
+.div-texto p {
+	margin-bottom: 15px;
+}
+
+.div-texto a {
+	width: 45%;
+	height: 55px;
+	display: block;
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding: 20px 0px;
+	background-color: #63a4e0;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+#fondo-team {
+	background-color: #6798D0;
+	height: 50px;
+	padding-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-size: 1.5em;
+}
+
+#fondo-enterprise {
+	background-color: #39587F;
+	height: 50px;
+	padding-top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-size: 1.5em;
+}
+
+.div-texto a:hover {
+	background-color: #46c4ff;
+}
+
+
+/*Ultima imagen que esta super puesta*/
+
+#div-ultima-imagen {
+	width: 100%;
+	height: 260px;
+	margin-bottom: 120px;
+	background-color: #0c2341;
+	background-image: url(img/Product/home-profile-background.png);
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:991px) {
+	#div-ultima-imagen {
+		width: 0px;
+		height: 0px;
+		background-color: none;
+		background-image: none;
+	}
+}
+
+#div-texto {
+	margin-top: 5%;
+	color: white;
+}
+
+#div-texto p {
+	font-size: 1.3em;
+}
+
+#div-texto span {
+	font-size: 1.1em;
+}
+
+
+/*Estilos de los div que ocultan la pantalla*/
+
+#div-contenedor-medium {
+	text-align: center;
+}
+
+#div-contenedor-medium * {
+	display: block;
+	margin-bottom: 10%;
+}
+
+#div-contenedor-medium img {
+	margin: 0px auto;
+}
+
+.btn-estilo-estandar {
+	background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%);
+	border-radius: 3px;
+	color: white;
+}
+
+#btn-learn-more {
+	width: 30%;
+	height: 3em;
+	display: block;
+	padding-top: 2%;
+	margin: 0px auto;
+	font-weight: 500;
+}
+
+#img-logo {
+	width: 60%;
+	margin-bottom: 10%!important;
+}
+
+
+/*------------------------------------------------Landing page-------------------------------------------------------*/
+
+#contenedor-principal-md {
+	width: 100%;
+	height: 490px;
+	background-image: url(img/landingPage/banner1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width:767px) {
+	#contenedor-principal-md {
+		width: 0px;
+		height: 0px;
+		background-color: none;
+	}
+}
+
+#div-texto-primero {
+	padding-top: 10%;
+}
+
+#div-texto-primero h1 {
+	color: transparent !important;
+	-webkit-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-moz-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-ms-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	-o-background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
+	color: #4a89dc;
+	font-family: OpenSans;
+	font-weight: 700;
+	-webkit-background-clip: text;
+	-ms-background-clip: text;
+	background-clip: text;
+	font-size: 42px;
+	line-height: 54px;
+}
+
+#div-texto-primero p {
+	font-weight: 400;
+	font-size: 1.4em;
+	margin-bottom: 3%;
+	font-family: OpenSans, Arial, sans-serif
+}
+
+#div-texto-primero a {
+	font-size: 1em;
+	padding: 2% 5%;
+}
+
+#div-texto-primero a:hover {
+	color: white;
+}
+
+#div-contenedor-menor img {
+	width: 100%;
+}
+
+.div-texto-pequenio {
+	background-color: #4B90DE;
+	height: auto;
+	text-align: center;
+	color: white;
+	padding: 5% 0px;
+}
+
+.div-texto-pequenio a {
+	background-image: linear-gradient(#2a73cc, #2260aa);
+	color: white;
+	font-size: 1.3em;
+	padding: 1% 5%;
+	font-weight: 600;
+}
+
+.parrafo-repetido{
+	color: #da4453;
+}
+#contenedor-banner2 {
+	margin: 2em 0px;
+	background-image: url(img/landingPage/AI_launch_assets_hp_promo_banner.png);
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	padding: 5%;
+}
+
+#contenedor-banner2 * {
+	display: block;
+	padding: .5% 0px;
+	color: white;
+}
+
+#contenedor-banner2 a {
+	width: 15%;
+	margin: auto;
+	background-color: #2073d4;
+}
+
+#contenedor-banner2 a:hover {
+	background-color: #005BBE;
+}
+
+#img-logos {
+	width: 85%;
+}
+
+.contenedor-publicidad {
+	margin: 0px auto;
+	text-align: center;
+}
+
+#btn-informacion {
+	background-color: white;
+	color: blue;
+	border: 1px blue solid;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 1%;
+}
+
+#btn-informacion:hover {
+	background-color: #0156B8;
+	color: white;
+}
+
+#contenedor-padre {
+	/*Este heigth tiene que ir en automatico*/
+	height: auto;
+	margin-top: 1em;
+}
+
+#contenedor-textos-dinamica {
+	height: 100%;
+}
+
+#contenedor-textos-dinamica div {
+	width: 100%;
+	height: 33.333333%;
+	padding-right: 5%;
+	color: #8080804d;
+	margin: 10% 0px 10% 10%;
+}
+
+#contenedor-textos-dinamica div:hover {
+	color: grey;
+	cursor: pointer;
+}
+
+#contenedor-padre span {
+	text-align: center;
+}	
+#titulo-modal{
+height:100px;
+background-color: transparent;
+text-align: center;
+color: white;
+margin-bottom: 5%;
+}
+#titulo-modal img{
+ display:block;
+ margin:0% auto;
+ height:30%;
+ margin-bottom: 2%;
+}
+#titulo-modal span{
+margin-left: 2%;
+}
+.registrarse-fb{
+background-color: rgb(59, 89, 152);
+margin-top: 5%; 
+padding: 2%;
+text-align: center;
+color: white;
+}
+.registrarse-fb img, p{
+display: inline;
+}
+.registrarse-fb img{
+width:5%;
+}
+#formulario-registro{
+margin-top: 5%;
+margin-top: 10%;
+}
+#formulario-registro h2{
+font-size: 1.1em;
+font-weight: 700;
+margin-right: 0.75rem;
+}
+#formulario-registro input{
+width: 100%;
+height: 2.5em;
+}
+.unete-gratuito{
+background-color: #2A73CC;
+border: none;
+margin: 10% 0%;
+color: white;
+width: 100%;
+padding: 3%;
+ine-height: 1rem;
+text-align: center;
+white-space: nowrap;
+cursor: pointer;
+font-weight: 600;
+color: #FFF;
+font-size: rem;
+}
+#modal-footer{
+ text-align:center;
+ font-size: .7em;
+}
+#modal-footer span{
+ font-size: 1.3em;
+ color: #0156B8;
+ cursor: pointer;
+ font-weight: 600;
+}
+#modal-footer a{
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+#modal-footer p{
+  color: gray;
+}
+#modal-footer a:hover{
+  color: blue;
+}
+.modal-content{
+  background-color: transparent;
+  border: none;
+}
+.modal-body{
+  background-color: white; 
+}
+#iniciar:hover,#registrarse:hover{
+   text-decoration: underline;
+   color: white;
+}
+#iniciar,#registrarse{
+ color: #fff9;
+ cursor:pointer;
+}
+.olvidar{
+ cursor: pointer;
+ text-decoration: none;
+ font-weight: 700;
+}
+.div-mostrado{
+ color:white!important;
+ text-decoration:underline;
+}
+/*---------------------------------------------------Resources------------------------------------------------------*/
+.div-articulo-resources{
+	border: 1px solid #80808033;
+	margin-bottom: 10%;
+}
+.div-articulo-resources :hover{
+	cursor: pointer;
+}
+.div-articulo-resources img{
+	width: 100%;
+}
+#contenedor-articulos-resources{
+	padding: 0px 2.5%;
+}
+@media only screen and (max-width:992px){
+	#contenedor-articulos-resources{
+		padding: 0px 10%;
+	}
+}
+.div-texto-resources{
+	padding:2%;
+	color: #5c8ed7;
+	font-size: .9em;
+	font-weight: 700;
+}
+.div-texto-resources a:hover{
+	color: #3978d4 !important;
+}
+.titulo-articulo-resources{
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.2;
+	margin-bottom: .7em;
+}
+.div-banner-resources{
+	width: 100%;
+	height: 100%;
+	padding: 5% 3%;
+	margin-bottom: 5%;
+	background:url(img/Resources/newslider.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.div-banner-resources h1{
+	width: 44%;
+	font-size: 2.75em;
+	font-weight: 300;
+	line-height: 1.2;
+	margin-bottom: .7em;
+}
+.div-banner-resources h2{
+	font-weight: 300;
+	font-size: 1.5em;
+	width: 40%;   
+	line-height: 1.2;
+	margin-bottom: .7em;
+	text-align: left!important;
+}
+@media only screen and (max-width:835px){
+	.div-banner-resources{
+		background-image: none;
+		background-color:#1640D4;
+	}
+	.div-banner-resources h1{
+		width: 100%;
+		text-align: center;
+		color: white;
+		font-size: 2em;
+	}
+	.div-banner-resources h2{
+		width: 100%;
+		text-align: center;
+		color: white;
+		font-size: 1.25em;
+	}
+}
+/*-----------------------------------------------For enterprise-----------------------------------------------------*/
+
+#logo-ForEnterprise {
+	width: 40%;
+	float: left;
+}
+
+.padre-flex {
+	flex-direction: row;
+}
+
+.header-letras {
+	padding: 0 20px;
+	color: #0C2341;
+}
+
+#estilo-Parrafo1 {
+	width: 61%;
+}
+
+#div-content-developer {
+	margin: .8em 0 .8em 0;
+	text-align: center;
+	font-size: 2.25em;
+	font-weight: 300!important;
+}
+
+#separacion-div {
+	padding-right: 2em;
+	padding-left: 4em;
+}
+
+#div-curated-course {
+	text-align: center;
+	margin: 36px 0px;
+}
+
+#estilo-curated {
+	font-size: 2.25em;
+}
+
+#estilo-the {
+	font-size: 1.4em;
+}
+
+.caja-estilo-principal {
+	width: 45%;
+	height: 275px;
+	background: -moz-linear-gradient(3deg, #57acf5 0%, #7b32de 100%);
+	background: -webkit-linear-gradient(3deg, #57acf5 0%, #7b32de 100%);
+	background: -o-linear-gradient(3deg, #57acf5 0%, #7b32de 100%);
+	background: -ms-linear-gradient(3deg, #57acf5 0%, #7b32de 100%);
+	background: linear-gradient(87deg, #57acf5 0%, #7b32de 100%);
+	float: left;
+	margin: 1% 2.5%;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.estilo-caja-texto {
+	width: 50%;
+	height: 250px;
+	color: white;
+	float: left;
+	box-sizing: border-box;
+	padding: 2%;
+}
+
+.estilo-caja-texto h3 {
+	font-size: 1.5em;
+}
+
+.estilo-caja-texto p {
+	font-size: .85em;
+}
+
+.estilo-caja-imagenes {
+	width: 50%;
+	height: 100%;
+	background-color: orange;
+	float: left;
+}
+
+.imagen-superpuesta {
+	position: absolute;
+	height: 250px;
+}
+
+.imagenes-empresas {
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor-texto-imagenes {
+	width: 100%;
+	height: 40px;
+}
+
+.contenedor-texto-imagenes img {
+	width: 15%;
+	height: 100%;
+	margin: 2%;
+}
+
+#modificaciones {
+	margin-top: 4.5em;
+}
+
+#estilo-companies {
+	text-align: center;
+	margin: 1em 0 1.2em 0;
+	text-align: center;
+	font-size: 2.95em;
+	font-weight: 300;
+	line-height: 1.2;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+#imagenes-publicidad {
+	width: 100%;
+	height: 130px;
+	padding: 1% 10%;
+}
+
+#imagenes-publicidad img {
+	width: 13.28%;
+}
+
+#imagen-video {
+	width: 44%;
+	margin: 0px auto 5% auto;
+}
+
+#ultimo-div {
+	padding: 8% 28%;
+	height: 350px;
+	background: -moz-linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	background: -webkit-linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	background: -o-linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	background: -ms-linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	background: linear-gradient(45deg, #48ceae 0%, #3db4d2 100%);
+	text-align: center;
+	color: white;
+}
+
+#ultimo-div button {
+	display: block;
+}
+
+#modificacion-boton {
+	margin: 5% auto;
+}
+
+#ultimo-div h4 {
+	font-size: 2.5em;
+}
+
+
+/*Aqui son lineas de custom*/
+
+#navbarTogglerDemo03 {
+	margin-left: 5em;
+}
+
+.btn {
+	color: white;
+	background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%);
+}
+
+.carousel-caption {
+	text-align: justify;
+	width: 45%;
+	margin-left: -10%;
+	color: black;
+	margin-bottom: 5em;
+}
+
+.carousel-caption p,
+h1 {
+	font-family: 'Open Sans', sans-serif !important;
+	color: #0C2341;
+}
+
+.carousel-caption div {
+	margin-top: 1em;
+}
+
+
+/*Aqui terminan las lineas de custom*/
+
+
+/*-----------------------------NavBar-Principal Resources----------------------------------*/
+
+#logo-for-enterprise {
+	width: 100%!important;
+}
+
+.navbar-edit {
+	flex-basis: none;
+	width: 250%;
+}
+
+@media only screen and (max-width:991px) {
+	#logo-for-enterprise {
+		width: 45%!important;
+	}
+}
+
+.navbar-edit li {
+	border-right: 1px black solid;
+	height: 15px;
+}
+
+.navbar-edit a {
+	margin-top: -13px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.a-noBorder {
+	border: none!important;
+}
+
+.a-Learn {
+	background: -moz-linear-gradient(left, #4fc1e9 0%, #444bc5 100%);
+	background: -webkit-linear-gradient(left, #4fc1e9 0%, #444bc5 100%);
+	background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%);
+	color: white;
+	padding: .5em .5em;
+	border-radius: 10px;
+}
+/*-------------------------------------------------Div con div superpuesto-------------------------------------------*/
+    .contenedor-incarousel-principal{
+        height: 300px;
+        margin-top: 1%;
+        color:white;
+    }
+    .div-derecho{
+        width: 45%;
+        float: left;
+        height: 100%;
+    }
+    .div-izquierdo{
+        width: 55%;
+        float: left;
+        height: 100%;
+        padding: 4% 3%;
+    }
+    .contenedor-incarousel{
+        height: 100%;
+        background: linear-gradient(87deg,#57acf5 0%,#833ae4 100%)
+    }
+    .div-derecho img{
+        height: 100%;
+        max-width: 100%;
+    }
+    @media only screen and (max-width:1200px) {
+        .div-derecho{
+            width: 50%;
+        }
+        .div-izquierdo{
+            width: 50%;
+        }
+    }   
+    .imagen-superpuesta{
+        position: absolute;
+    }
+    .contenedor-incarousel-superpuesto{
+        display: none;
+        height: 100%;
+        bottom:300px;
+        position: relative;
+    }
+    .contenedor-incarousel:hover + .contenedor-incarousel-superpuesto{  
+        display:block;
+    }
+    .contenedor-incarousel-superpuesto:hover{   
+        display:block;
+        background: linear-gradient(87deg,#57acf5 0%,#833ae4 100%)
+    }
+    .div-izq-texto{
+        height: 80%;
+    }
+    .div-izq-img{
+        height: 17%;
+    }
+    .div-izq-img img{
+        height: 100%;
+        margin: 0% 2%;
+    }
+    .div-izq-texto h2{
+        font-size: 1.85em;
+        font-weight: 400;
+    }
+    .div-izq-texto p{
+        color: #fff;
+        font-size: .8em;
+    }
+    .span-img{
+        position: relative;
+        bottom: 10%;
+        left: 40%;
+        font-size:.8em;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .div-lista-incarousel{
+        padding: 3%;
+    } 
+    .div-lista-incarousel h2{
+        font-size: 1.85em;
+        font-weight: 400;
+        width: 50%;
+    }
+    .lista-incarousel li{
+        float:left;
+    }
+/*-------------------------------------------------Estilos Content--------------------------------------------------------*/
+*{
+	font-family: 'Open Sans',sans-serif !important;
+}
+.div-banner-content{
+	background-image:url(img/content/Content-Hero-Product.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 10%;
+}
+.div-banner-content h1{
+	font-size: 2.75em;
+	font-weight: 100;
+	width: 69%;
+	line-height: 1.2;
+	margin-bottom: .35em;
+}
+.div-banner-content h2{
+	font-weight: 300;
+	font-size: 1.5em;
+	width: 50%;
+}
+#div-segundo-content{
+	background-color: #0C2341;
+	text-align: left;
+}
+#div-segundo-content img{
+	width: 25%;
+}
+#div-segundo-content h2{
+	font-size: 2.25em;
+	font-weight: 300;
+	line-height: 1.2;
+	margin-bottom: .35em;
+	padding: 0px 9%;
+}
+#div-segundo-content p{
+	font-size: 1.125em;
+	font-weight: 400;
+	line-height: 1.2;
+	margin-bottom: .7em;
+}
+#ul-divisiones{
+margin: 0px;
+padding: 0px;
+}
+#ul-divisiones li{
+display: inline;
+margin-right: 5%;
+font-size: 1.125em;
+color: #3BAFDA;
+cursor: pointer;
+}
+#ul-divisiones li:hover{
+color: #AC92EC;
+text-decoration: underline;
+}
+#li-unico{
+color:white!important;
+}
+.div-carousel-content{
+background-color: yellowgreen;
+display:none;
+}
+#divs-carousel{
+	background-color: #0C2341;
+	padding-top:5%;
+	padding-bottom: 5%;
+}
+li:hover{
+color: #AC92EC;
+text-decoration: underline;
+}
+.publicidad-imagenes{
+	height: 650px;
+	padding: 2% 0%;
+	margin: 1% 0%;
+}    
+#div-universidad-der{
+	height: 100%;
+	float: left;
+	width: 55%;
+}
+#div-publicidad-universidad{
+	width: 45%;
+	height: 100%;
+	float: left;
+	padding: 10% 5%;
+	border-right: 1px black solid;
+}
+#div-publicidad-universidad p{
+	color: black;
+	text-align: left;
+	font-size: 1.6em;
+	line-height: 1.375;
+}
+.div-universidades-content{
+	height: 15%;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.div-universidades-content img{
+	height: 100%;
+	width: 15%;
+	margin: 0% 4%;
+}
+.titulo-3{
+	text-align: center;
+	font-size: 2.4em;
+	width: 80%;
+	margin: 0 10% 62px 10%;
+	color: black;
+}
+.titulo2{
+	text-align: center;
+	font-size: 2.4em;
+	width: 80%;
+	margin: 0 10% 62px 10%;
+	font-weight: 100;
+}
+#div-profesores{
+	height: 500px;
+	width: 100%;
+}
+.info-profesores{
+	width: 14.2857%;
+	height: 100%;
+	float: left;
+	padding: 1%;
+	box-sizing: border-box;
+}
+.imagen-profe{
+	height: 60%;
+	width: 100%;
+}
+.imagen-profe img{
+	width: 100%;
+}
+.texto-profe{
+	height: 40%;
+}
+.texto-profe h4{
+	font-size: 1.125em;
+	font-weight: 400;
+}
+.texto-profe p{
+	font-weight: 200;
+	color: black;
+	margin-top: 4%;
+}
+#imagen-enterprise-content img{
+	width: 100%;
+}
+.div-autora-cita{
+	background-image: url(img/content/testoimonial-background.png);
+	background-size: cover;
+	width:100%;
+	height:400px;
+	margin-bottom: 5%;
+}
+.div-testimonio-izq{
+	height: 100%;
+	width: 38%;
+	margin: 0% 1%;
+	float: left;
+}
+.div-testimonio-der{
+	height: 100%;
+	margin: 0% 1%;
+	width: 58%;
+	float: left;
+	color: white;
+}
+.div-testimonio-der *{
+	margin: 2% 0%;
+}
+.div-testimonio-izq img{
+	width: 100%;
+}
+.div-testimonio-principal{
+	height:100%; 
+	width: 50%; 
+	margin-top: -5%;
+	padding-top: 7%;
+}
+.div-get-started{
+	height: 400px;
+	width: 100%;
+	background: linear-gradient(45deg,#48ceae 0%,#3db4d2 100%);
+	text-align: center;
+	padding: 5% 0%;
+	color: white;
+}
+.div-get-started *{
+	display: block;
+	font-weight: 100!important;
+}
+.div-get-started h2{
+	font-size: 3em;
+	font-weight: 100!important;
+}
+.div-get-started span{
+	margin-block-end: 2.5em;
+	font-size: 1.5em;
+	margin-bottom: 2em;
+	width: 30%;
+	margin-left: 35%;
+	font-weight: 300;
+	line-height: 1.4;
+	color: #fff;
+}
+.div-get-started a{
+	text-decoration: none;
+	color: white;
+	background: linear-gradient(to right,#4fc1e9 0%,#444bc5 100%);
+	width: 10%;
+	text-align: center;
+	margin: 0% auto;
+	padding: 0.5%;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 1.2em;
+	font-weight: 400;	
+}
+/*---------------------------------------------------------btn-registro*---------------------------------------------------------*/
+.div-transform{
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(to right, #00c3ef 0%,#5d00c9 100%);
+	color: white;
+	padding: 3.5% 0 0% 5%;
+	box-sizing: border-box;
+}
+.div-transform h1{
+	font-weight: 100;
+	font-size: 2.5em;
+	margin-bottom: .1em;
+	line-height: 1.1;
+	color: white;
+}
+.parrafo-transform{
+	width: 60%;
+	padding-top: 5%;
+	padding-right: 10%;
+	padding-left: 5%;
+	font-size: 1.5em;
+	line-height: 1.25;
+	margin-bottom: 1em;
+	box-sizing: border-box;
+	color: #0C2341;
+	font-weight: 100;
+	float: left;
+}
+.formulario-learn *{
+	display: block;
+
+}
+.formulario-learn label{
+	margin-bottom: 8px;
+	color: #0C2341;
+	font-weight: 600;
+	font-size: 14px;
+}
+.formulario-learn{
+	padding: 0% 5%;
+}
+.formulario-learn input{
+	width: 90%;
+	border-radius: 4px;
+	border: 1px solid #dedede;
+	color: #333;
+	font-weight: 500;
+	margin-bottom: 7px;
+	padding: 5px;
+}
+.div-formulario{
+	background-color: #F5F5F5;
+	height: auto;
+	width: 38%;
+	float: left;
+	position: relative;
+	bottom: 5em;
+	padding: 2%;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 2%;
+	
+}
+.formulario-learn button{
+	padding: 15px 48px;
+	background-color: #37BC9B;
+	box-shadow: none;
+	text-shadow: none;
+	color: #fff;
+	outline: none;
+	border-radius: 3px;
+	border: none;
+	font-weight: 600;
+	font-size: 15px;
+	float: left;
+	position: relative;
+	top: 20px;
+	background-image: none;
+	margin-bottom: 5%;	
+}
+.formulario-learn button:hover{
+	border: 1px solid #447f19;
+	background-color: #0C2341;
+}
+@media only screen and (max-width:575px){
+	.parrafo-transform{
+		width: 100%;
+	}
+	.div-transform{
+		height: 90px;
+	}
+	.div-formulario{
+		width: 100%;
+		margin-top: 15%;
+		margin-bottom: 10%;
+	}
+}
+@media only screen and (max-width:445px){
+	.div-transform{
+		font-size: .9em;
+		padding: 5% 0%;
+	}
+}
+.campo-vacio{
+	height: 30px;
+	background-color: #FF3600;
+	width: 40%;
+	position: absolute;
+	left: -75px;
+	border-radius: 6px;
+	display:none;
+	font-size: 0.8em;
+	color: white;
+	padding: 1% 3%;
+}
+@media only screen and (max-width:950px){
+	.campo-vacio{
+		width:55%;
+	}
+}
+@media only screen and (max-width:670px){
+	.campo-vacio{
+		width:75%;
+	}
+}
+/*-----------------------------------Este es el final de el btn-Registro------------------------------------------*/
+/*-----------------------------------Header con inicio de sesion--------------------------------------------------*/
+.div-usuario{
+	height: 100%;
+	width: 30%;
+}
+.div-usuario a{
+	margin-right: 2%;
+	padding-right: 5%;
+	padding-top: 1%;
+	box-sizing: border-box;     
+}
+.div-usuario *{
+	float:left;
+}
+.div-usuario span{
+	padding: 10% 8%;
+}
+.icon-user{
+	background-color: #3BAFDA;
+	color: white;
+	height: 40px;
+	width: 40px !important;
+	padding: 5px;
+	border-radius: 18px;
+}
+.dropdown-btnUsuario{
+	border: none;
+	background-color: transparent;
+}
+#anchord-enterprise{
+	margin-top: 2%;
+	border-right: 1px solid black;
+}
+#anchord-enterprise:hover{
+	color: #2a73cc;
+	cursor: pointer;
+}
+.identificador-usuario{
+	width: 46%;
+}
+.identificador-usuario:hover{
+	background-color: #f0f0f0;
+}
+.dropdown-usuario{
+	float:left;
+}
+.dropdown-usuario *{
+	float:left;
+}
+/*-------------------------------------------Estilos solitos------------------------------------------------------*/
+.error-entrada{
+	position: absolute;
+	background-color: white;
+	box-shadow: 10px;
+	box-shadow: 1.5px 2.5px #8080804f;
+	height: 30px;
+	text-align: center;
+	padding: 0.5% 1%;
+	margin: 2% -1%;
+	font-size: .9em;
+	display: none;
+}
+.bg-primary{
+	background-color:#0069D9!important  ;
+}
+
+/*--------------------------------------------------Ajustes--------------------------------------------------------*/
+.div-guardada{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 5em;
+}
+.sub-div-guardado{
+	width: 100%;
+	height:60%;
+	margin: 0 0;
+}
+.primer-contenedor-imagen{
+	width: 9%;
+}
+.contenedor-guardados{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.label-guardado{
+	width: 30%;
+	height:100%;
+	margin-left: auto;
+	font-family: OpenSans,Arial,sans-serif;
+	font-weight: 600!important;
+	font-size: .95em;
+}
+.imagen-perfil img{
+	width: 50%;
+}
+#cambiar-foto{
+	background-color: #2A7CD4;
+	border: none;
+	color: white;
+	height: 40px;
+	padding: 0px 4%;
+	font-weight: 900;
+}
+#eliminar-foto{
+	background-color: white;
+	border: none;
+	color: blue;
+	height: 40px;
+	padding: 0px 4%;
+	font-weight: 100;
+	border: 1px solid blue;
+}
+#main-ajustes{
+	background-color:#F5F5F5;
+	margin: -10px -10px;
+	padding: 0px;
+}
+.contenedor-main{
+	height: auto;
+	width: 85%;
+	background-color: white;
+	margin: 0 auto;
+	border: 1px solid #0003;
+}
+.btn-azul{
+	background-color: white;
+	color: blue!important;
+	border: 1px blue solid;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 1.5% 3.5%;
+}
+.btn-azul:hover{
+	background-color: #0156B8;
+	color: white!important;
+}
+.titulo-ajustes *{
+	float: left;
+	margin: 2% 0%;
+}
+.titulo-ajustes{
+	margin: 0% 2%;
+	height: auto;
+	width: auto;
+	border-bottom: 1px solid #0000001a;
+}
+.titulo-ajustes h1{
+	font-size: 32px;
+	line-height: 36px;
+	font-weight: 500!important;
+}
+.segundo-titulo{
+	margin: 3% 3%;
+}
+.segundo-titulo *{
+	height: 1em!important;
+	font-weight: 100!important; 
+}
+.divs-formularios{
+	margin: 3%;
+	border-bottom: 1px solid #0000001a;
+}
+
+.usuario-subir{
+	font-size: 6em;
+	color: white;
+	background-color: #42AFD8;
+	padding: 1% 0%;
+}
+.btn-cargar{
+	text-decoration: none;
+	background-color: #005BBE;
+	color: white;
+	border: none;
+	padding: 1% 1.5%;
+	box-sizing: content-box;
+}
+.div-cargar{
+	display: inline;
+}
+#checkbox-estudiante{
+	margin-bottom: 1em;
+}
+#Agregar-profesion{
+	color: #3D78D2;
+	cursor: pointer;
+	margin-top: 3em;
+}
+.div-pie{
+	height: auto;
+}
+.div-parrafo-pie{
+	height: 100%;
+	width: 70%;
+	margin: 0% auto;
+}
+.div-parrafo-pie button{
+	color: white;
+	display: block;
+	border: 1px solid #2073d4;
+	background-image: linear-gradient(#2a73cc,#2260aa);
+	padding: 1em 5%;
+}
+	
+#btn-cerrar-tutor{
+border: none;
+background-color: #0069D9;
+margin: 0 auto;
+}
+  
+.error-curso{
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	padding: 1%;
+	width: 33%;
+	display: none;
+}

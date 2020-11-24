@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="144px" viewBox="0 0 200 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>advance_career_shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="onboarding-v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="goals-copy" transform="translate(-280.000000, -345.000000)">
+            <g id="Advance-career" transform="translate(280.000000, 345.000000)">
+                <g id="advance_career_shape">
+                    <rect id="Rectangle-9" fill="#4FC1E9" x="0" y="0" width="200" height="144"></rect>
+                    <g id="shape_advance" transform="translate(31.000000, 56.000000)">
+                        <g id="Group-4" transform="translate(0.000000, 6.000000)" stroke="#0F5D78" stroke-width="2" stroke-linecap="square">
+                            <path d="M0,10 L50,10" id="Line"></path>
+                            <path d="M65.0162354,9.98818208 L117.016235,9.98818208 L65.0162354,9.98818208 Z M136.420077,9.99050838 L112,19.2933947 L117.549753,9.99050838 L112,0.68762207 L136.420077,9.99050838 Z" id="Line-Copy-4" transform="translate(100.718156, 9.990508) rotate(-360.000000) translate(-100.718156, -9.990508) "></path>
+                        </g>
+                        <g id="Group-7" transform="translate(42.000000, 0.000000)">
+                            <circle id="Oval-3" fill="#FFFFFF" opacity="0.5" cx="16" cy="16" r="16"></circle>
+                            <circle id="Oval" stroke="#0F5D78" stroke-width="2" cx="16" cy="16" r="8"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
